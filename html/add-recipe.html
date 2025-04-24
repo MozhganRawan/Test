@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="add-recipe.html">Add Recipe</a></li>
+          <li><a href="recipe-list.html">Recipe List</a></li>
+        </ul>
+      </nav>
+
+      
+      <!-- Add Recipe Form -->
+  <h1>Add your favorite  Recipe</h1>
+  <form action="#" method="post">
+    <label for="name">Recipe Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="E.g., Spaghetti Bolognese" required><br><br>
+    
+    <label for="ingredients">"What ingredients would you like to add?":</label><br>
+    <textarea id="ingredients" name="ingredients" rows="4"placeholder="E.g., Tomatoes, Garlic, Olive Oil, etc." required></textarea><br><br>
+        
+   
+    <label for="instructions">Cooking Instructions:</label><br>
+    <textarea id="instructions" name="instructions" rows="5" required></textarea><br><br>
+
+    <label for="image">Link to an image that shows your dish:</label><br>
+    <input type="url" id="image" name="image"><br><br>
+
+    <label for="category">Recipe Category:</label><br>
+    <select id="category" name="category">
+      <option value="Desserts">Desserts</option>
+      <option value="Appetizers">Appetizers</option>
+      <option value="Vegan">Vegan</option>
+      <option value="Quick Meals">Quick Meals</option>
+      <option value="Drinks">Drinks</option>
+      <option value="Main Course">Main Course</option>
+    </select><br><br>
+
+    <button type="submit">Add Recipe</button>
+  </form>
+
+
+  <!-- your page content --> 
+ <footer> <hr> <section class="contact-info"> <p><strong>Name:</strong> Mozhgan Rawan</p> 
+  <p><strong>City:</strong> Herat, Afghanistan</p> <p><strong>Phone:</strong> +93 700 123 456</p> <p>
+    <strong>Email:</strong> mozhganrawan29@gmail.com.com</p>
+ </section> </footer>
+
+</body>
+</html>
